@@ -17,7 +17,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
-          password: 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
+          password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Run a one-line script
         run: echo Hello, my name is abduljawad
