@@ -17,7 +17,7 @@ jobs:
         with:
           registry: ghcr.io
           username: jawad74
-          password: ${{ secrets.GHCR_TOKEN }}
+          password: GG1234ss
 
       - name: Run a one-line script
         run: echo Hello, my name is abduljawad
